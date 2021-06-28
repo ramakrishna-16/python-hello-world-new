@@ -1,3 +1,7 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
 # Program to check if a number is prime or not
 
 num = 29
@@ -23,3 +27,4 @@ if flag:
     print(num, "is not a prime number")
 else:
     print(num, "is a prime number")
+
